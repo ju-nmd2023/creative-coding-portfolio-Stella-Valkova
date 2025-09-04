@@ -1,5 +1,3 @@
-// "Fluttered Eyelashes, Sleepy Eyes - Molnar Recreation V.1"
-
 function setup() {
     createCanvas(600, 600);
   }

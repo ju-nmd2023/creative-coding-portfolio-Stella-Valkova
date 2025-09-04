@@ -1,7 +1,32 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
+    "file": "experiments/molnar-v1.js",
+    "name": "Sleepy Eyes - Molnar Recreation V.1",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+
+  {
+    "file": "experiments/molnar-v2.js",
+    "name": "All Eyes on me - Molnar Recreation V.2",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+
+  {
+    "file": "experiments/noise-landscape-v1.js",
+    "name": "Blood Pressure - Recreation of Noise Landscape - V.1",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+
+  {
+    "file": "experiments/noise-landscape-v1.1.js",
+    "name": "Blood Pressure is Rising - Recreation of Noise Landscae V.1.1",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+
+  {
+    "file": "experiments/noise-landscape-v2.js",
+    "name": "Dunes - Recreation of Noise Landscae V.2",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   }
 ]
+
