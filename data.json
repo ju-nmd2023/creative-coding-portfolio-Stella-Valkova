@@ -2,30 +2,37 @@
   {
     "file": "experiments/molnar-v1.js",
     "name": "Sleepy Eyes - Molnar Recreation V.1",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "Inspired by Vera Molnar, this piece captures the soft, dark blur of eyelids drifting shut. Starting from Garrit's code, I experimented with values and replaced sharp lines with smooth curves."
+
   },
 
   {
     "file": "experiments/molnar-v2.js",
-    "name": "All Eyes on me - Molnar Recreation V.2",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "All Eyes On Me - Molnar Recreation V.2",
+    "description": "Inspired by Vera Molnar, this piece captures the sensation of countless eyes watching, with randomized colors swirling like a crowd of gazes fixed on me. I built upon Garrit's code again, implementing a function for the colour randomisation."
   },
 
   {
     "file": "experiments/noise-landscape-v1.js",
-    "name": "Blood Pressure - Recreation of Noise Landscape - V.1",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Hearbeat - Recreation of Noise Landscape - V.1",
+    "description": "A red, moving noise-landscape built on Garrit's code, where racing lines pulse like the heart's always-high tempo."
   },
 
   {
     "file": "experiments/noise-landscape-v1.1.js",
-    "name": "Blood Pressure is Rising - Recreation of Noise Landscape V.1.1",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Rising Hearbeat - Recreation of Noise Landscape V.1.1",
+    "description": "A rougher, more chaotic version of Heartbeat, where jagged lines represent the anxious feeling of the body"
   },
 
   {
     "file": "experiments/noise-landscape-v2.js",
     "name": "Dunes - Recreation of Noise Landscape V.2",
+    "description": "Slow, flowing lines and fading sandy tones recreate the gentle, shifting motion of desert dunes, built from Garrit's original code. Here I made the speed of the line much slower, and their size smaller."
+  },
+
+  {
+    "file": "experiments/example.js",
+    "name": "Example",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   }
 ]
