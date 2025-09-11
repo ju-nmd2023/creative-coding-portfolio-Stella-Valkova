@@ -33,19 +33,19 @@
   {
     "file": "experiments/particles-v1.js",
     "name": "Interesections - Particle Explosion V.1",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "An experiment using the particle code as a starting point where I created hollow circles with randomized stroke weights each time the mouse clicks. I played around with the values, and thanks to setting higher velocity there is a feeling of moving when the circles are created."
   },
 
   {
     "file": "experiments/particles-v2.js",
     "name": "Aura - Particle Explosion V.2",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "a variation of Particle Explosion where smaller circles appear with two colors upon mouse click. When the circles intersect, their overlapping area turns white, creating a glowing effect."
   },
 
   {
     "file": "experiments/particles-v3.js",
     "name": "Aura Windows - Particle Explosion V.3",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "a variation of Particle Explosion where rectangles with no fill, only strokes, are created with each mouse click. The rectangles form a window-like effect, with the intersection area glowing white when they overlap"
   }
 ]
 
