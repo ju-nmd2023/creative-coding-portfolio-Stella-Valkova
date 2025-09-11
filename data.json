@@ -31,8 +31,20 @@
   },
 
   {
-    "file": "experiments/example.js",
-    "name": "Example",
+    "file": "experiments/particles-v1.js",
+    "name": "Interesections - Particle Explosion V.1",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+
+  {
+    "file": "experiments/particles-v2.js",
+    "name": "Aura - Particle Explosion V.2",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+
+  {
+    "file": "experiments/particles-v3.js",
+    "name": "Aura Windows - Particle Explosion V.3",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   }
 ]
