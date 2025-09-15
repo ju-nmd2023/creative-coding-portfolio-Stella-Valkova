@@ -1,7 +1,7 @@
 // "All Eyes on Me - Daytime - Molnar Recreation V.2"
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(innerWidth, innerHeight);
 }
 
 const size = 60;

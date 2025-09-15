@@ -32,7 +32,7 @@ function generateHorizon(base, maxHeight, offset) {
 
 function generateLayers() {
   let h = 500;
-  let maxHeight = 100;
+  let maxHeight = 80;
   while (h > 0) {
     noiseSeed(seed);
     generateHorizon(h, maxHeight, counter); 

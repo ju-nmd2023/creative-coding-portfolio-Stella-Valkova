@@ -20,7 +20,7 @@ class Particle {
     push();
     translate(this.position.x, this.position.y);
     stroke(255, 255, 255, 5);
-    strokeWeight(random(6));
+    strokeWeight(random(5));
     noFill();
     ellipse(0, 0, 80);
     pop();
@@ -37,7 +37,7 @@ function setup() {
 }
 
 function generateParticles(x, y) {
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 1; i++) {
     const px = x + random(-10, 10);
     const py = y + random(-10, 10);
     const particle = new Particle(px, py);
