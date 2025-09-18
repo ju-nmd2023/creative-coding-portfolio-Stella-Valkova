@@ -1,5 +1,8 @@
-// Aura Windows  - Particle Explosion V.2
+let oscillator;
+let chorus;
+let synth;
 
+// Code for the Particles
 class Particle {
   constructor(x, y) {
     this.position = createVector(x, y);
@@ -19,10 +22,10 @@ class Particle {
   draw() {
     push();
     translate(this.position.x, this.position.y);
-    stroke(50, 20, 255, 15);
-    strokeWeight(random(20));
+    stroke(10, 80, 255, 10);
+    strokeWeight(random(15));
     noFill();
-    line(0, 80, 20, 200);
+    line(10, 10, 20, 150);
     pop();
   }
 
@@ -37,7 +40,7 @@ function setup() {
 }
 
 function generateParticles(x, y) {
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 1; i++) {
     const px = x + random(-10, 10);
     const py = y + random(-10, 10);
     const particle = new Particle(px, py);
@@ -60,6 +63,16 @@ function draw() {
   }
 }
 
+// Code for the Sound
+window.addEventListener("load", () => {
+  chorus = new Tone.Chorus(4, 2.5, 0.5).toDestination().start();
+  synth = new Tone.PolySynth().connect(chorus);
+});
+
 function mouseClicked() {
   generateParticles(mouseX, mouseY);
+  Tone.start();
+  let notes = ["C4", "D4", "E4", "G4", "A4", "C5", "D5", "E5", "G5"];
+  let note = random(notes);
+  synth.triggerAttackRelease(note, "8n");
 }

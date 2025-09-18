@@ -3,7 +3,6 @@
     "file": "experiments/molnar-v1.js",
     "name": "Sleepy Eyes - Molnar Recreation V.1",
     "description": "Inspired by Vera Molnar, this piece captures the soft, dark blur of eyelids drifting shut. Starting from Garrit's code, I experimented with values and replaced sharp lines with smooth curves."
-
   },
 
   {
@@ -39,13 +38,18 @@
   {
     "file": "experiments/particles-v2.js",
     "name": "Aura - Particle Explosion V.2",
-    "description": "a variation of Particle Explosion where smaller circles appear with two colors upon mouse click. When the circles intersect, their overlapping area turns white, creating a glowing effect."
+    "description": "A variation of Particle Explosion where smaller circles appear with two colors upon mouse click. When the circles intersect, their overlapping area turns white, creating a glowing effect."
   },
 
   {
     "file": "experiments/particles-v3.js",
     "name": "Aura Windows - Particle Explosion V.3",
-    "description": "a variation of Particle Explosion where rectangles with no fill, only strokes, are created with each mouse click. The rectangles form a window-like effect, with the intersection area glowing white when they overlap"
+    "description": "A variation of Particle Explosion where rectangles with no fill, only strokes, are created with each mouse click. The rectangles form a window-like effect, with the intersection area glowing white when they overlap."
+  },
+
+  {
+    "file": "experiments/sound.js",
+    "name": "Icicles Sound",
+    "description": "A variation of Particle Explosion where line-like shards burst out with each mouse click, creating a dynamic visual effect. Each explosion is paired with a random musical note, combining custom particle code with techniques from the Tone.js documentation."
   }
 ]
-
